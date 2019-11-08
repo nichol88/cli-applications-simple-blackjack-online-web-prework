@@ -43,9 +43,9 @@ end
 def hit?(current_total)
   # code hit? here
   prompt_user
-  
-  response = get_user_input
 
+  response = get_user_input
+  binding.pry
   if response == "h"
     current_total += deal_card
     display_card_total(current_total)
