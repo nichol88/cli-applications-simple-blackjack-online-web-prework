@@ -45,7 +45,7 @@ def hit?(current_total)
   prompt_user
   response = get_user_input
 
-  if response == "y"
+  if response == "h"
     current_total += deal_card
     display_card_total(current_total)
   elsif response == "s"
@@ -53,7 +53,7 @@ def hit?(current_total)
   else
     invalid_command
     prompt_user
-    
+
   end
   current_total
 end
