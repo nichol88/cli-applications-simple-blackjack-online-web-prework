@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  while rand.(11) == 0
+  while rand(11) == 0
   end
 end
 
