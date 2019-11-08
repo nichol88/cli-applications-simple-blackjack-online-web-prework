@@ -6,9 +6,6 @@ end
 def deal_card
   # code #deal_card here
   x = 0
-
-  puts x
-
   while x == 0
     x = rand(11)
   end
