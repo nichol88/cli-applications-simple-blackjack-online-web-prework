@@ -44,7 +44,6 @@ end
 def hit?(current_total)
   # code hit? here
   prompt_user
-
   response = get_user_input
   #binding.pry
 
@@ -74,4 +73,7 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  hit?(initial_round)
 end
