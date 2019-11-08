@@ -5,7 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
-  rand.(11)
+  while rand.(11) == 0
+  end
 end
 
 def display_card_total(card_total)
