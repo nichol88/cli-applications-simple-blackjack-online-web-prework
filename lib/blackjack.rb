@@ -5,11 +5,14 @@ end
 
 def deal_card
   # code #deal_card here
-  x = rand(11)
+  x = 0
+
   puts x
-  if x == 0
-    deal_card
+
+  while x == 0
+    x = rand(11)
   end
+
   return x
 end
 
