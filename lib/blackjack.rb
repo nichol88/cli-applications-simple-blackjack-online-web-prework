@@ -43,17 +43,14 @@ end
 
 def hit?(current_total)
   # code hit? here
+
   prompt_user
   response = get_user_input
   #binding.pry
 
   if response == "h"
     current_total += deal_card
-    display_card_total(current_total)
-    current_total
   elsif response == "s"
-    display_card_total(current_total)
-    end_game(current_total)
     current_total
   else
     invalid_command
@@ -82,5 +79,5 @@ def runner
     display_card_total(total)
     total = hit?(total)
   end
-  
+
 end
