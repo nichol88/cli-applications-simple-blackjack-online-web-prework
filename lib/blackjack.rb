@@ -55,6 +55,7 @@ def hit?(current_total)
   elsif response == "s"
     display_card_total(current_total)
     end_game(current_total)
+    current_total
   else
     invalid_command
     prompt_user
