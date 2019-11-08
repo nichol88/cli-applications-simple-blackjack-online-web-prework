@@ -44,8 +44,10 @@ def hit?(current_total)
   # code hit? here
   prompt_user
   response = get_user_input.downcase
+
   if response == "y"
-    deal_card
+    current_total += deal_card
+    display_card_total(current_total)
   elsif response == "s"
     end_game
   else
