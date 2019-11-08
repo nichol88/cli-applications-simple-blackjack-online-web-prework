@@ -5,7 +5,9 @@ end
 
 def deal_card
   # code #deal_card here
-  while rand(11) == 0
+  x = rand(11)
+  puts x
+  if x == 0
     deal_card
   end
 end
