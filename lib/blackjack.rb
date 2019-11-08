@@ -43,7 +43,7 @@ end
 def hit?(current_total)
   # code hit? here
   prompt_user
-  response = get_user_input.downcase
+  response = get_user_input
 
   if response == "y"
     current_total += deal_card
