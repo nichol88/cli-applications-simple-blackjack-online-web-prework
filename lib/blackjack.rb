@@ -52,9 +52,7 @@ def hit?(current_total)
     current_total += deal_card
 
   elsif response == "s"
-
-
-    #end_game(current_total)
+    end_game(current_total)
   else
     invalid_command
     hit?(current_total)
