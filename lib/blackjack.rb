@@ -40,7 +40,7 @@ def initial_round
   first_round
 end
 
-def hit?
+def hit?(current_total)
   # code hit? here
   prompt_user
   response = get_user_input.downcase
