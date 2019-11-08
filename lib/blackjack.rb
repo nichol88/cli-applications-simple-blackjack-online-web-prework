@@ -59,7 +59,6 @@ def hit?(current_total)
     prompt_user
   end
 
-  return current_total
 end
 
 def invalid_command
