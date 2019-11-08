@@ -43,7 +43,7 @@ end
 def hit?(current_total)
   # code hit? here
   prompt_user
-  get_user_input
+  
   response = get_user_input
 
   if response == "h"
