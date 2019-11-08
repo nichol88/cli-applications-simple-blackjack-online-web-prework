@@ -48,12 +48,12 @@ def hit?(current_total)
   if response == "h"
     current_total += deal_card
     display_card_total(current_total)
+    break
   elsif response == "s"
     end_game(current_total)
   else
     invalid_command
     prompt_user
-
   end
   current_total
 end
