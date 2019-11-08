@@ -42,6 +42,15 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  response = get_user_input.downcase
+  if response == "y"
+    deal_card
+  elsif response == "s"
+    end_game
+  else
+    invalid_command
+  end
 
 end
 
