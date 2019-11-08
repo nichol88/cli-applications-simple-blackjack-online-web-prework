@@ -56,7 +56,7 @@ def hit?(current_total)
     end_game(current_total)
   else
     invalid_command
-    hit?(current_total)
+    prompt_user
   end
 
   return current_total
