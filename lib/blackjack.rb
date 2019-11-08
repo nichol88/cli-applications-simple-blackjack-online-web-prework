@@ -53,9 +53,9 @@ def hit?(current_total)
     end_game(current_total)
   else
     invalid_command
-    prompt_user
+    hit?(current_total)
   end
-  current_total
+  return current_total
 end
 
 def invalid_command
