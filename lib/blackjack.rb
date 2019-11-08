@@ -10,6 +10,7 @@ def deal_card
   if x == 0
     deal_card
   end
+  return x
 end
 
 def display_card_total(card_total)
